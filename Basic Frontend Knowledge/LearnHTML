@@ -14,5 +14,38 @@ aタグのhrefは「hypertext reference」の略
 altは検索エンジンで引っ掛ける用
 
 
+https://www.w3schools.com/html/default.asp
+htmlチュートリアル勉強
 
+<title>とは
+「TITLE」とは文書にタイトルをつけるタグです。<head>～</head>内にある<title>～</title>にそのページの題名を表す内容を記述します。たとえばサイトのトップページで指定されるtitleはそのサイト名（サイトタイトル）、サブページであればそのページのタイトルであることが一般的です。  
+titleとして記述された内容はWebブラウザの上部タイトルバーや検索結果のタイトル、お気に入り（ブックマーク）に入れた時のタイトルとしても表示されるため、そのページの内容を端的に表す内容を選ぶ必要があります。また、検索のアルゴリズム上、title要素で記述された文字列は強い重み付けがされますので、SEOの観点からも重要なタグです。
+
+w3cでは属性名はすべて小文字を推奨
+
+aタグのhrefは「hypertext reference」の略
+リファレンスは参照という意味
+
+<img src="画像のURL" alt="画像の説明">　
+altは検索エンジンで引っ掛ける用
+
+水平線 horizontal rule ルーラー定規
+<hr> 
+
+プリフォーマット　preformatted text <pre>
+整形済みテキスト(ｂｒとか入れなくても改行が入れられる)
+
+
+css
+style = で設定
+フォント　font-family 
+位置　text-align
+
+強調　strong or bタグ
+斜体　i or em
+マーク　mark
+取り消し先　del 
+下線　ins  insert
+下にずらす　sub Subscript H2Oの2を下にしたいときとかに使う
+うえに９ずらす　sup Superscript
 
