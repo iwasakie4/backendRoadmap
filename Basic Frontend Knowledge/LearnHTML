@@ -1,6 +1,8 @@
 https://www.w3schools.com/html/default.asp
 htmlチュートリアル勉強
 
+使えそうなところ、忘れていたところなどを記載
+
 <title>とは
 「TITLE」とは文書にタイトルをつけるタグです。<head>～</head>内にある<title>～</title>にそのページの題名を表す内容を記述します。たとえばサイトのトップページで指定されるtitleはそのサイト名（サイトタイトル）、サブページであればそのページのタイトルであることが一般的です。  
 titleとして記述された内容はWebブラウザの上部タイトルバーや検索結果のタイトル、お気に入り（ブックマーク）に入れた時のタイトルとしても表示されるため、そのページの内容を端的に表す内容を選ぶ必要があります。また、検索のアルゴリズム上、title要素で記述された文字列は強い重み付けがされますので、SEOの観点からも重要なタグです。
@@ -49,3 +51,61 @@ style = で設定
 下にずらす　sub Subscript H2Oの2を下にしたいときとかに使う
 うえに９ずらす　sup Superscript
 
+blockquote 引用
+address アドレス
+cite 創作物
+
+外部css
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+target 属性
+リンクされたドキュメンの開き方を設定
+_self- デフォルト。クリックしたときと同じウィンドウ/タブでドキュメントを開きます
+_blank- ドキュメントを新しいウィンドウまたはタブで開きます
+_parent- ドキュメントを親フレームで開きます
+_top- ドキュメントをウィンドウ全体で開きます
+
+例
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+
+画像リンク　aタグの中にimgを入れる
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+
+
+メールリンク
+<a href="mailto:someone@example.com">Send email</a>
+
+
+ブックマーク
+以下を押下すると
+<p><a href="#C4">Jump to Chapter 4</a></p>
+以下に飛ぶ
+<h2 id="C4">Chapter 4</h2>
+
+map クリックできる場所を座標で指定できる
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+
+
+
+画面やデバイスが小さい場合は、大きな画像ファイルを読み込む必要はありません。ブラウザーは、<source> 属性値が一致する最初の要素を使用し、それ以降の要素を無視します。
+また一部のブラウザーまたはデバイスは、すべての画像形式をサポートしていない場合も考慮できる
+レスポンシブなデザインができる
+https://code-kitchen.dev/html/picture/
+<picture>
+  <source srcset="img_avatar.png">
+  <source srcset="img_girl.jpg">
+  <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
+</picture>
+
+次ここから
+https://www.w3schools.com/html/html_favicon.asp
