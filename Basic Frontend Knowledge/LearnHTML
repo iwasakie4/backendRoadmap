@@ -107,5 +107,27 @@ https://code-kitchen.dev/html/picture/
   <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
 </picture>
 
-次ここから
-https://www.w3schools.com/html/html_favicon.asp
+
+favicon タブの画像
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+
+span テキスト一部をマークアップする
+
+iframe インラインフレーム フレームにwebページを追加できる 結構使えそう
+https://www.w3schools.com/html/html_iframe.asp
+
+
+ドキュメントを30秒ごとに更新する
+<meta http-equiv="refresh" content="30">
+
+ビューポートを設定して、Web サイトがすべてのデバイスで適切に表示されるようにします。
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+https://www.w3schools.com/html/html_head.asp
+
+HTML レイアウトコツ
+
+https://www.w3schools.com/html/html_layout.asp
