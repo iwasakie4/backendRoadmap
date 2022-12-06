@@ -131,3 +131,57 @@ https://www.w3schools.com/html/html_head.asp
 HTML レイアウトコツ
 
 https://www.w3schools.com/html/html_layout.asp
+
+レスポンシブなデザインをする場合以下を入れ込むといい感じに表示を調整してくれる
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+画像伸ばしは以下のようにする
+<img src="img_girl.jpg" style="width:100%;">
+
+
+
+<img src="img_girl.jpg" style="max-width:100%;height:auto;">
+max-widthの場合であればもとのサイズより大きくなることはない
+
+pictureを使えば異なる画像を表示できる これ使える
+<picture>
+  <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+  <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+  <source srcset="flowers.jpg">
+  <img src="img_smallflower.jpg" alt="Flowers">
+</picture>
+
+サイズも変更可能
+
+<h1 style="font-size:10vw">Hello World</h1>
+
+メディアクエリを使えばブラウザごとに全くことなるスタイルを定義できる
+<style>
+.left, .right {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
+
+ブートストラップ勉強しておけば良さそう
+
+https://www.w3schools.com/html/html5_semantic_elements.asp
+
+
+
+
+
+
+
