@@ -180,8 +180,60 @@ pictureを使えば異なる画像を表示できる これ使える
 https://www.w3schools.com/html/html5_semantic_elements.asp
 
 
+セマンティック要素
+非セマンティック要素の例:<div>および<span>
+その内容について何も語らない。
 
 
+セマンティック要素の例
+<form>、<table>
+その内容を明確に定義する
+
+セマンティック要素を使用する理由
+W3C によると、「セマンティック Web により、アプリケーション、企業、およびコミュニティ間でデータを共有および再利用できます。」
+
+セマンティック要素をつける理由について
+スクリーンリーダーのため
+seoのため
+参考 https://www.bring-flower.com/blog/html-semantics-elements/
+
+弊社だとDIVばっかりだなぁって思うけど他の大手じゃない企業ってどうなんだろ
+
+要素は小文字がおおすすめ
+・大文字小文字混雑は見栄えがわるい
+・開発者は普通小文字
+・小文字のほうがキレイに見える、書きやすい。
+
+スペースについて
+良い：
+<link rel="stylesheet" href="styles.css">
+
+悪い：
+<link rel = "stylesheet" href = "styles.css">
+
+<title>要素はSEOに非常に重要なので絶対いれる
 
 
+html,body,headは省略できるけど非推奨
 
+lang 必須
+
+検索エンジンのインデックスを確実にするためにメタデータも必須
+<meta charset="UTF-8">
+
+ビューポートの設定
+携帯表示を考えるなら
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+表示領域が確保でき、スマートフォン、タブレットでページが見やすいように拡大されてる「だけ」なので携帯用のCSSが必要
+
+
+webサーバーはファイル名を大文字小文字区別する
+小文字ファイルを基本とする
+
+htmlとhtmの差はなし
+
+デフォルトのファイル名はよく
+「index.html」、「index.htm」、「 default.html」、または「default.htm」
+
+
+https://www.w3schools.com/html/html_entities.asp
