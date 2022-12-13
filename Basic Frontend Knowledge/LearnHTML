@@ -236,4 +236,34 @@ htmlとhtmの差はなし
 「index.html」、「index.htm」、「 default.html」、または「default.htm」
 
 
-https://www.w3schools.com/html/html_entities.asp
+ASCII から UTF-8 
+ASCIIは最初のエンコーディング標準
+128 種類の文字: 数字 (0 ～ 9)、英字 (A ～ Z)、および ! などの特殊文字。$ + - ( ) @ < > .
+
+ISO-8859-1 は、HTML 4 のデフォルトの文字セット
+256 の異なる文字コードをサポート
+HTML 4 は UTF-8 もサポート
+
+ANSI (Windows-1252) は、元の Windows 文字セットです。ANSI は ISO-8859-1 と同じですが、ANSI には 32 文字が追加されています。
+
+HTML5 仕様では、Web 開発者が UTF-8 文字セットを使用することを推奨しています。
+この文字セットは、世界中のほぼすべての文字と記号をカバーできます。
+
+
+
+XHTMLとはなに
+Hyper Text Markup Language
+HTML のより厳密な XML ベースのバージョン
+XML アプリケーションとして定義された html
+
+たしかXHTMLって廃止だった気がする..
+https://www.mitsue.co.jp/knowledge/blog/frontend/202102/08_0910.html
+廃止確認
+
+
+HTML5 廃止の流れは以下参考に
+https://future-architect.github.io/articles/20210621a/
+まとめ
+HTMLの規格策定はW3Cでなく、WHATWGがつくることになりました。それに伴って、HTML5は廃止され、HTML Living Standardがこれからの主流になったという話でした。
+
+https://www.w3schools.com/html/html_forms_attributes.asp
